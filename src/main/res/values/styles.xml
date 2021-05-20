@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="actionBarStyle">@layout/activity_splash_screen</item>
+        <item name="actionBarDivider">@layout/activity_splash_screen</item>
+        <item name="windowActionBar">@layout/activity_splash_screen</item>
+    </style>
+
+</resources>

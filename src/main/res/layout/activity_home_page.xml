@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/home_portrait"
+    android:background="#BBDEFB"
+    tools:context=".HomePage">
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="28sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="Welcome to Car App" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/et_username"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/user"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:paddingLeft="10sp"
+        android:paddingRight="20sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20dp"
+        android:inputType="textPersonName"
+        android:hint="Your name here"/>
+
+
+    <EditText
+        android:id="@+id/et_email"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/email"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Your email here"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/phone"
+        android:gravity="center"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Your phone number here"
+        android:inputType="phone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/clear_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_round"
+            android:text="Reset" />
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_round"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_round"
+            android:text="Next" />
+    </LinearLayout>
+</LinearLayout>
